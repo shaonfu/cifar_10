@@ -11,7 +11,7 @@ from keras.layers import Conv2D, MaxPooling2D, ZeroPadding2D, GlobalMaxPooling2D
 from lsuv_init import LSUVinit
 import os
 
-batch_size = 32
+batch_size = 64
 num_classes = 10
 data_augmentation = True
 epochs = 10
